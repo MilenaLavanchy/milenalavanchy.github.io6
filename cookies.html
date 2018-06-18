@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Cookies
+title: cats
 ---
-{% for cookie in site.cookies %}
-	<div class="cookie">
-		<h2><a href="{{ cookie.url }}">{{ cookie.title }}</a></h2>
+{% for cat in site.cats %}
+	<div class="cat">
+		<h2><a href="{{ cat.url }}">{{ cat.title }}</a></h2>
 	</div>
 {% endfor %}
